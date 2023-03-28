@@ -1,0 +1,98 @@
+.top{
+    margin: 1.5rem 0.8rem;
+}
+
+.top p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+}
+
+.top h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: underline;
+
+}
+
+.top h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: start;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width:850px){
+    .paper{
+        margin: 0;
+    }
+    .paper p{
+        font-size: 1rem;
+    }
+    .paper li{
+        font-size: 1rem;
+        font-weight: 300;
+    text-align: start;
+    margin: 0px;
+    
+    }
+    .top {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+      }
+      .top h4{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: start;
+        text-decoration: underline;
+    }
+      .top h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: left;
+        text-decoration: underline;
+    }
+    .top p {
+      font-size: 1.3rem;
+      font-weight: 400;
+      text-align: start;
+      margin: 0px
+    }
+    .paper ul{
+        flex-direction: row;
+    }
+
+    .paper h3{
+        margin: 5px;
+    }
+}
+@media screen and (max-width:550px){
+    .top {
+        display: flex;
+        flex-direction: column;
+      }
+      .top h4{
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: start;
+        text-decoration: underline;
+    }
+      .top h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: left;
+        text-decoration: underline;
+    }
+    .top p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      text-align: start;
+      margin: 0px
+    }
+}

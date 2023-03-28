@@ -1,0 +1,99 @@
+.global{
+       color: #2a2a2a;
+       height: 60vh;
+       width: 100%;
+       background: #000;
+       display: flex;
+       align-items: center;
+}
+
+.global img{
+    width: 40%;
+    height: 40vh;
+    margin-right: 40px;
+}
+
+.global-text{
+    background-color: #000;
+}
+.global-text img{
+    width: 80%;
+}
+
+.global-text a{
+    font-size: 2rem;
+    background-color: #fff;
+    color: #000; 
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 40px;
+
+}
+
+.global-text a:hover{
+    background-color: rgb(255, 188, 140);
+    color: #000;
+    border-radius: 4px;
+    transition:all 0.2s ease-in-out;
+}
+
+
+.global h1{
+    font-size: 3rem;
+}
+
+.global p{
+    font-size: 1.3rem;
+}
+
+.global ul{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap:5px;
+    list-style: none;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 50%;
+    padding: 1rem 2rem;
+} 
+ 
+
+
+
+@media (width <= 550px){
+    .global{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+ }
+    .global ul{
+        display: block;
+        margin: 5vh;
+    }
+    .global img{
+        width: 90%;
+        height: 23vh;
+        margin-right: 0px;
+    }
+    
+    .global-text{
+        background-color: #000;
+    }
+    .global-text img{
+        width: 98%;
+    }
+    .global-text a{
+        margin-right: 0px;
+    
+    }
+    .global li{
+        display: block;
+        justify-content: space-between;
+        padding: 2rem 2rem 2rem 0;
+        text-align: start;
+    }
+
+
+}
